@@ -1,0 +1,12 @@
+{
+  "appId": "com.animeloyalty.app",
+  "directories": {
+    "buildResources": "app/build"
+  },
+  "files": [
+    {"from": "app", "to": "", "filter": ["icon.png"]},
+    {"from": "app", "to": "", "filter": ["public/**/*"]}
+  ],
+  "linux": {"target": "AppImage"},
+  "mac": {"target": "dmg"}
+}
