@@ -1,0 +1,21 @@
+os: linux
+dist: focal
+language: shell
+before_install:
+  - chmod +x .travis-wine.sh
+jobs:
+  include:
+    - stage: electron
+      services: docker
+      script: ./.travis-wine.sh
+    - language: node_js
+      node_js: lts/*
+      script: npm run build
+    - os: osx
+      osx_image: xcode11.3
+      language: node_js
+      node_js: lts/*
+      script: npm run build
+branches:
+  only:
+  - master
