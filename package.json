@@ -1,0 +1,36 @@
+{
+  "author": "Roel van Uden",
+  "description": "Your personal anime collection on your device. Your content, your rules.",
+  "license": "MIT",
+  "name": "animeloyalty",
+  "repository": "git://github.com/animeloyalty/animeloyalty",
+  "version": "0.1.0",
+  "keywords": [
+    "animeloyalty",
+    "anime",
+    "download",
+    "crunchyroll",
+    "funimation"
+  ],
+  "bin": {
+    "animeloyalty": "./bin/animeloyalty"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "dependencies": {
+    "animesync": "0.9.3"
+  },
+  "devDependencies": {
+    "animeloyalty-client": "0.1.8",
+    "electron": "11.2.1",
+    "fs-extra": "9.0.1",
+    "webpack": "4.35.0"
+  },
+  "scripts": {
+    "app": "electron app",
+    "postinstall": "node postinstall",
+    "release": "electron-webpack && electron-builder"
+  }
+}
