@@ -32,7 +32,7 @@
   },
   "scripts": {
     "app": "electron app",
-    "build": "electron-webpack && electron-builder",
-    "prepare": "node prepare"
+    "prepare": "node prepare",
+    "release": "electron-webpack && electron-builder"
   }
 }
