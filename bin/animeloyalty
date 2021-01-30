@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+require('animesync/dist/cli/app');
