@@ -2,6 +2,7 @@
     "editor.tabSize": 2,
     "files.exclude": {
       "app/public": true,
+      "dist": true,
       "node_modules": true
     }
   }

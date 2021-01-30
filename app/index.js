@@ -17,7 +17,7 @@ function closedWindow() {
  */
 function createTray() {
   if (process.platform === 'darwin' || mainTray) return;
-  mainTray = new electron.Tray(getResourcePath('icon.png'));
+  mainTray = new electron.Tray(getIconPath('icon.png'));
   mainTray.on('double-click', createWindow);
   mainTray.setContextMenu(electron.Menu.buildFromTemplate([{click: createWindow, label: 'Launch'}, {type: 'separator'}, {role: 'quit'}]));
   mainTray.setToolTip(`${packageData.name} (${packageData.version})`);
@@ -31,7 +31,7 @@ function createWindow() {
     mainWindow = new electron.BrowserWindow({
       backgroundColor: '#303030', show: false,
       useContentSize: true, width: 852, height: 479,
-      icon: getResourcePath('icon.png'),
+      icon: getIconPath('icon.png'),
       title: `${packageData.name} (${packageData.version})`,
       webPreferences: {contextIsolation: true}
     });
@@ -53,10 +53,9 @@ function createWindow() {
  * @param {string} name 
  * @returns {string}
  */
-function getResourcePath(name) {
-  const currentPath = path.join(__dirname, name);
-  const resourcePath = path.join(process.resourcesPath, name);
-  return fs.existsSync(currentPath) ? currentPath : resourcePath;
+function getIconPath(name) {
+  const filePath = path.join(__dirname, name);
+  return fs.existsSync(filePath) ? filePath : name;
 }
 
 /**
