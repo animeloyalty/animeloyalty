@@ -26,25 +26,28 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 
 #### Install on Windows
 
-1. [Download the latest Windows installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-Setup-0.9.4.exe).
-2. Run the installer. *Windows* will block the installation.
-3. Click on *More Info* and then click on *Run anyway*.
-4. Enjoy *AnimeLoyalty*!
+1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
+2. [Download the latest Windows installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-Setup-0.9.4.exe).
+3. Run the installer. *Windows* will block the installation.
+4. Click on *More Info* and then click on *Run anyway*.
+5. Enjoy *AnimeLoyalty*!
 
 #### Install on Mac
 
-1. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.dmg).
-2. Run the installer. Drag *animeloyalty* to *Applications*.
-3. Run *animeloyalty*. *Mac* will block the application.
-4. Open *Security & Privacy*. Click on the *Lock* icon to make changes.
-5. Click on the *Allow* button next to the message about *animeloyalty*.
-6. Run *animeloyalty*. Enjoy!
+1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
+2. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.dmg).
+3. Run the installer. Drag *animeloyalty* to *Applications*.
+4. Run *animeloyalty*. *Mac* will block the application.
+5. Open *Security & Privacy*. Click on the *Lock* icon to make changes.
+6. Click on the *Allow* button next to the message about *animeloyalty*.
+7. Run *animeloyalty*. Enjoy!
 
-#### Install on Linux
+#### Install on Ubuntu
 
-1. [Download the latest Linux image](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.AppImage).
-2. Make the *animeloyalty* *AppImage* executable.
-3. Run *animeloyalty*. Enjoy!
+1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
+2. [Download the latest Ubuntu image](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.AppImage).
+3. Make the *animeloyalty* *AppImage* executable.
+4. Run *animeloyalty*. Enjoy!
 
 ### Developer Interface (CLI)
 
