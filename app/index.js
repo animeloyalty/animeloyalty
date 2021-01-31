@@ -15,12 +15,18 @@ function closedWindow() {
 /**
  * ...
  */
-function createTray() {
-  if (process.platform === 'darwin' || mainTray) return;
-  mainTray = new electron.Tray(getIconPath('icon.png'));
-  mainTray.on('double-click', createWindow);
-  mainTray.setContextMenu(electron.Menu.buildFromTemplate([{click: createWindow, label: 'Launch'}, {type: 'separator'}, {role: 'quit'}]));
-  mainTray.setToolTip(`${packageData.name} (${packageData.version})`);
+function createMenu() {
+  if (process.platform === 'darwin') {
+    const submenu = [{click: createWindow, label: 'Launch'}, {role: 'quit'}];
+    const menu = [{label: '', submenu}];
+    electron.Menu.setApplicationMenu(electron.Menu.buildFromTemplate(menu));
+  } else if (!mainTray) {
+    const menu = [{click: createWindow, label: 'Launch'}, {type: 'separator'}, {role: 'quit'}];
+    mainTray = new electron.Tray(getIconPath('icon.png'));
+    mainTray.on('double-click', createWindow);
+    mainTray.setContextMenu(electron.Menu.buildFromTemplate(menu));
+    mainTray.setToolTip(`${packageData.name} (${packageData.version})`);
+  }
 }
 
 /**
@@ -95,7 +101,7 @@ function onWebBeforeInputEvent(event, input) {
  */
 function startApplication() {
   app.Server.usingAsync(async () => {
-    createTray();
+    createMenu();
     createWindow();
     await new Promise(() => {});
   });
