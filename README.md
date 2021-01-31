@@ -53,6 +53,23 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 
 See https://github.com/animeloyalty/animesync.
 
+## Desktop (Preview)
+
+### Shortcuts
+
+#### Keyboard
+
+* Navigate Back: `Backspace`, `Escape`
+* Seek Backward: `ArrowLeft`
+* Seek Forward: `ArrowRight`
+* Toggle Fullscreen: `ALT+Enter`, `Backslash`, `F`, `F11`
+* Toggle Play: `Enter`, `Space`
+
+#### Mouse
+
+* Toggle Fullscreen: `Double Click` (*on video*)
+* Toggle Play: `Click` (*on video*)
+
 ## Contributions
 
 While software contributions are welcome, you can also help with:
