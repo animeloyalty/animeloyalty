@@ -37,7 +37,7 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
 2. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.dmg).
 3. Run the installer. Drag *animeloyalty* to *Applications*.
-4. Run *animeloyalty*. *Mac* will block the application.
+4. Run *animeloyalty*. *Mac* will block the application. Click on *Cancel*.,
 5. Open *Security & Privacy*. Click on the *Lock* icon to make changes.
 6. Click on the *Allow* button next to the message about *animeloyalty*.
 7. Run *animeloyalty*. Enjoy!
