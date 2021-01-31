@@ -26,14 +26,14 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 
 #### Install on Windows
 
-1. [Download the latest Windows installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.13.0/animeloyalty-Setup-0.13.0.exe).
+1. [Download the latest Windows installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-Setup-0.9.4.exe).
 2. Run the installer. *Windows* will block the installation.
 3. Click on *More Info* and then click on *Run anyway*.
 4. Enjoy *AnimeLoyalty*!
 
 #### Install on Mac
 
-1. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.13.0/animeloyalty-0.13.0.dmg).
+1. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.dmg).
 2. Run the installer. Drag *animeloyalty* to *Applications*.
 3. Run *animeloyalty*. *Mac* will block the application.
 4. Open *Security & Privacy*. Click on the *Lock* icon to make changes.
@@ -42,7 +42,7 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 
 #### Install on Linux
 
-1. [Download the latest Linux image](https://github.com/animeloyalty/animeloyalty/releases/download/v0.13.0/animeloyalty-0.13.0.AppImage).
+1. [Download the latest Linux image](https://github.com/animeloyalty/animeloyalty/releases/download/v0.9.4/animeloyalty-0.9.4.AppImage).
 2. Make the *animeloyalty* *AppImage* executable.
 3. Run *animeloyalty*. Enjoy!
 
