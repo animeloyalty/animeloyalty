@@ -4,7 +4,7 @@ Your personal anime collection on your device. Your content, your rules.
 
 ## What is AnimeLoyalty?
 
-*AnimeLoyalty* is an *all-in-one* anime download- and streaming application. You can stream anime directly from your favourite streaming services, or download anime to watch later. Downloaded anime is stored in the original video format (`h264` in a `mp4` container) and bundled with subtitles in a `mkv` container.
+*AnimeLoyalty* is an anime download- and streaming application. You can stream anime directly from your favourite streaming services, or download anime to watch later. Downloaded anime is stored in the original video format (`h264` in a `mp4` container) and bundled with the subtitles in a `mkv` container. (**WARNING**: Downloading is not yet available in the desktop preview).
 
 ### Legal Warning
 
