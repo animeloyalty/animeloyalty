@@ -1,0 +1,7 @@
+/.vscode
+/app
+/dist
+/*.json
+/*.sh
+/*.yml
+/!(index).js
