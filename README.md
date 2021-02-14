@@ -16,6 +16,7 @@ This application is not endorsed or affliated with any streaming service. The us
     <img src="doc/images/remote-01.png" width="100%">
     <img src="doc/images/remote-02.png" width="100%">
     <img src="doc/images/remote-03.png" width="100%">
+    <img src="doc/images/remote-04.png" width="100%">
 </div>
 
 ## Installation
@@ -60,6 +61,8 @@ See https://github.com/animeloyalty/animesync.
 #### Keyboard
 
 * Navigate Back: `Backspace`, `Escape`
+* Next Episode: `ArrowUp`
+* Previous Episode: `ArrowDown`
 * Seek Backward: `ArrowLeft`
 * Seek Forward: `ArrowRight`
 * Toggle Fullscreen: `ALT+Enter`, `Backslash`, `F`, `F11`
