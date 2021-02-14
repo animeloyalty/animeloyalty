@@ -42,6 +42,8 @@ function createWindow() {
       webPreferences: {contextIsolation: true}
     });
     mainWindow.removeMenu();
+    mainWindow.on('enter-full-screen', onEnterFullscreen);
+    mainWindow.on('leave-full-screen', onLeaveFullscreen);
     mainWindow.on('ready-to-show', onReadyToShow);
     mainWindow.on('page-title-updated', onPageTitleUpdated);
     mainWindow.webContents.on('before-input-event', onWebBeforeInputEvent);
@@ -67,10 +69,26 @@ function getIconPath(name) {
 /**
  * ...
  */
+function onEnterFullscreen(ev) {
+  if (!mainWindow) return;
+  mainWindow.webContents.executeJavaScript('animeloyalty.electronState(true)', true);
+}
+
+/**
+ * ...
+ */
+function onLeaveFullscreen() {
+  if (!mainWindow) return;
+  mainWindow.webContents.executeJavaScript('animeloyalty.electronState(false)', true);
+}
+
+/**
+ * ...
+ */
 function onReadyToShow() {
   if (!mainWindow) return;
   mainWindow.show();
-  mainWindow.webContents.executeJavaScript('checkStartup()', true);
+  mainWindow.webContents.executeJavaScript('animeloyalty.electronStart()', true);
 }
 
 /**
