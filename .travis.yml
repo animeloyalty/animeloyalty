@@ -1,18 +1,16 @@
 os: linux
 dist: focal
-language: shell
-before_install:
-  - chmod +x .travis-wine.sh
+language: node_js
 jobs:
   include:
-    - services: docker
-      script: ./.travis-wine.sh
-    - language: node_js
+    - os: linux
       node_js: lts/*
       script: npm run release
     - os: osx
       osx_image: xcode12.2
-      language: node_js
+      node_js: lts/*
+      script: npm run release
+    - os: windows
       node_js: lts/*
       script: npm run release
 branches:
