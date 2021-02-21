@@ -4,7 +4,7 @@
   "license": "MIT",
   "name": "animeloyalty",
   "repository": "git://github.com/animeloyalty/animeloyalty",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "keywords": [
     "animeloyalty",
     "anime",
@@ -24,7 +24,7 @@
     "source-map-support": "0.5.19"
   },
   "devDependencies": {
-    "animeloyalty-client": "0.10.2",
+    "animeloyalty-client": "0.10.3",
     "electron": "11.2.1",
     "electron-builder": "22.9.1",
     "electron-webpack": "2.8.2",
