@@ -28,7 +28,7 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 #### Install on Windows
 
 1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
-2. [Download the latest Windows installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.10.3/animeloyalty-Setup-0.10.3.exe).
+2. [Download the latest Windows installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.10.4/animeloyalty-Setup-0.10.4.exe).
 3. Run the installer. *Windows* will block the installation.
 4. Click on *More Info* and then click on *Run anyway*.
 5. Enjoy *AnimeLoyalty*!
@@ -36,7 +36,7 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 #### Install on Mac
 
 1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
-2. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.10.3/animeloyalty-0.10.3.dmg).
+2. [Download the latest Mac installer](https://github.com/animeloyalty/animeloyalty/releases/download/v0.10.4/animeloyalty-0.10.4.dmg).
 3. Run the installer. Drag *animeloyalty* to *Applications*.
 4. Run *animeloyalty*. *Mac* will block the application. Click on *Cancel*.,
 5. Open *Security & Privacy*. Click on the *Lock* icon to make changes.
@@ -46,7 +46,7 @@ The *AnimeLoyalty* desktop application is in **preview**. Please see [this issue
 #### Install on Linux
 
 1. Install *Chrome* following the instructions at https://www.google.com/chrome/.
-2. [Download the latest Linux image](https://github.com/animeloyalty/animeloyalty/releases/download/v0.10.3/animeloyalty-0.10.3.AppImage).
+2. [Download the latest Linux image](https://github.com/animeloyalty/animeloyalty/releases/download/v0.10.4/animeloyalty-0.10.4.AppImage).
 3. Make the *animeloyalty* *AppImage* executable.
 4. Run *animeloyalty*. Enjoy!
 
