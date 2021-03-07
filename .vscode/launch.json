@@ -4,6 +4,7 @@
     "args" : ["app"],
     "cwd": "${workspaceFolder}",
     "name": "Debug Main Process",
+    "outFiles": ["${workspaceFolder}/app/**/*.js"],
     "outputCapture": "std",
     "request": "launch",
     "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
