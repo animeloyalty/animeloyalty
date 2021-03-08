@@ -7,6 +7,7 @@
     "outFiles": ["${workspaceFolder}/app/**/*.js"],
     "outputCapture": "std",
     "request": "launch",
+    "runtimeArgs": ["--inspect=16583"],
     "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
     "type": "node",
     "windows": {"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"}
