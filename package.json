@@ -4,7 +4,7 @@
   "license": "MIT",
   "name": "animeloyalty",
   "repository": "git://github.com/animeloyalty/animeloyalty",
-  "version": "0.11.7",
+  "version": "0.11.9",
   "keywords": [
     "animeloyalty",
     "anime",
@@ -20,7 +20,7 @@
     "npm": ">= 6.0.0"
   },
   "dependencies": {
-    "animesync": "0.11.7",
+    "animesync": "0.11.9",
     "source-map-support": "0.5.19"
   },
   "devDependencies": {
